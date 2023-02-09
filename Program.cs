@@ -167,7 +167,7 @@ void Vyborka()
             flag4 = checkdolzhnik(flag4, subjoc);
             if (flag4 == true)
             {
-                Console.WriteLine($"Гений {viborka[i].Item2} {viborka[i].Item1} {viborka[i].Item3} {viborka[i].Item4} {viborka[i].Item6}");
+                Console.WriteLine($"Должник {viborka[i].Item2} {viborka[i].Item1} {viborka[i].Item3} {viborka[i].Item4} {viborka[i].Item6}");
                 for (int j = 0; j < subjoc.Count; j++)
                 {
                     Console.WriteLine($"--------------------------------------------------------------");
