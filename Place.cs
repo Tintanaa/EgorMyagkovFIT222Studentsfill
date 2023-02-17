@@ -8,8 +8,8 @@ namespace App1
 {
     internal class Place
     {
-        public string name { get; set; }
-        public string surname { get; set; }
+        public string name { get; set; }         //name surname otchestvo dob group predmocenka для заполнения list в файле program.cs
+        public string surname { get; set; }      //потом Spisok используется для выборок в основной программе
         public string otchestvo { get; set; }
         public DateTime dob { get; set; } 
         public string group { get; set; } 
