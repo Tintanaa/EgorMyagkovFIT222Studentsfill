@@ -324,7 +324,13 @@ void Input()
                 }
             }
         }
-        Filllist(surname, name, otchestvo, dob, group, predmocenka);
+        place.name = name;
+        place.surname = surname;
+        place.otchestvo = otchestvo;
+        place.dob = dob;
+        place.group = group;
+        place.predmocenka = predmocenka;
+        Filllist(place.name, place.surname,place.otchestvo, place.dob, place.group,place.predmocenka);
         Console.WriteLine("1-продолжить заполнение студентов. 0-закончить");
         while (true)
         {
